@@ -1,0 +1,320 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.flexed {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+
+header {
+	background-color: #1F2427FF;
+	color: white;
+
+}
+
+header a {
+	margin: 20px 5px;
+	font-size: 25px;
+}
+
+header a:nth-child(4){
+	margin-right: 20px;
+}
+
+nav{
+	height: 8ch;
+	margin: 10px 0;
+}
+
+nav a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+	margin-left:15px;
+	margin-right: 15px;
+
+}
+
+nav div{
+	margin-right: auto;
+	margin-left: 3%;
+	font-size: 36px;
+}
+
+nav div span:nth-child(1){
+	display: inline-block;
+	color:white;
+	background-color: #FF5949FF;
+	width: 40px;
+	text-align: center;
+}
+.logo-image {
+	background-image: url(../img/girls.png);
+	background-size: cover;
+	padding-top: 10%;
+	padding-left: 5%;
+	padding-bottom: 20%;
+}
+
+.words span{
+	padding: 10px;
+	color: white;
+	background-color: #000000AF;
+	box-sizing: border-box;
+	text-align: left;
+	font-size: 36px;
+}
+
+.words {
+	margin: 20px 0;
+}
+
+.logo-image .buttons span{
+	color: white;
+	font-size: 24px;
+	padding: 5px 10px;
+	background: #FF5949FF;
+}
+
+.content {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: -30px;
+	display: flex;
+	flex-direction: column;
+	background-color: #F8F8F8FF;
+}
+
+.images {
+	background-color: #000000AF;
+	text-align: center;
+}
+
+.images img {
+	margin: 20px;
+}
+
+.features {
+	margin-top: 80px;
+	column-count: 3;
+}
+
+[class$="cog"]:before, [class$="user"]:before, [class$="pen"]:before {
+	margin-right: 30px;
+	color: white;
+	background-color: black;
+	padding: 5px 10px;
+}
+
+.feature {
+	margin: 0 50px;
+}
+
+.feature p {
+	color: gray;
+	margin-top: 30px;
+}
+
+.impr {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.impr h1 span {
+	background-color: #FF5949FF;
+	color: white;
+	padding: 5px 15px;
+}
+
+.photos {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+}
+
+.photos nav {
+	justify-content: left;
+}
+
+.photos nav a{
+	color: black;
+	text-transform: none;
+	font-size: 20px;
+}
+
+.photos nav a:nth-child(1){
+	color: white;
+	background-color: #FF5949FF;
+	padding: 5px 15px;	 
+}
+
+.photos .ph {
+	margin-top: 20px;
+	text-align: center;
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.photos .ph img {
+	margin: 10px;
+	float: left;
+}
+
+footer {
+	padding-top: 60px;
+	margin-top: -20px;
+	border-top: 6px solid #FF5949FF;
+	background-color: #202528FF;
+	display: flex;
+	justify-content: center;
+	color: white;
+	font-size: 15px;
+}
+
+footer h1 {
+	text-transform: uppercase;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+.posts, .about, .social {
+	max-width: 30%;
+	margin: 0 10px;
+}
+
+.post {
+	color: gray;
+	border-bottom: 1px solid #323434FF;
+	padding-bottom: 10px;
+	margin: 10px 0;
+}
+
+.about p{
+	color: gray; 
+}
+
+.logo-image2{
+	background-image: url(../img/head.png);
+	padding-bottom: 5%;
+}
+
+.head-text {
+	background-color: #000000AF;
+	padding: 30px 0;
+}
+
+.head-text * {
+	font-size: 50px;
+	margin-left: 40px;
+	color:  white;
+}
+
+.head-text p {
+	font-size: 20px;
+	color: gray;
+}
+
+.map {
+	width: 90%;
+	margin: 20px auto;
+}
+
+.map img {
+	width: 100%;
+}
+
+.data {
+	display: flex;
+	margin-top: 20px;
+}
+
+.about-form {
+	max-width: 30%;
+	margin-left: 40px;
+}
+
+.form {
+	margin-left: auto;
+	width: 56%;
+	text-align: center;
+}
+
+.form-line {
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.form-line input {
+	width: 40%;
+	height: 30px;
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 2px;
+	margin: 5px 10px;
+}
+
+.form .message {
+	text-align: center;
+}
+
+.form .message textarea {
+	margin-top: 20px;
+	height: 200px;
+	width: 83%;
+}
+
+.form button {
+	margin-top: 20px;
+	padding: 5px 20px;
+	background-color: #FF5949FF;
+	color: white;
+	border: none;
+	margin-bottom: 20px;
+}
+
+.form button:focus, .form button:active {
+	border: none;
+	outline: none;
+}
+
+.about-form p:nth-child(2){
+	margin-top: 20px;
+	color: red;
+}
+
+.about-form p:nth-child(6){
+	margin-top: 20px;
+}
+
+
+@media (max-device-width: 800px) {
+	.features {
+		column-count: 1;
+	}
+
+	.feature {
+		margin-top: 40px;
+	}
+
+	.feature p{
+		margin-top: 15px;
+	}
+}
